@@ -1,3 +1,19 @@
 open_clip_training/openclip_data/*
 open_clip_training/src/logs/*
 *__pycache__*
+# Local artifacts and private datasets
+/cache/
+/checkpoints/
+/outputs/
+/weights/
+/env/
+*.pth
+*.pt
+*.pkl
+*.ckpt
+*.egg-info/
+/datasets/custom/
+/datasets/coco/
+/datasets/ADEChallengeData2016/
+/datasets/ADE20K_2021_17_01/
+/datasets/VOCdevkit/
